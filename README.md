@@ -1,1 +1,0 @@
-# Radom-quote-generator

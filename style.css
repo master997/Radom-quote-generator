@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@400;700&family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Hachi+Maru+Pop&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sarina&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@400;700&family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Hachi+Maru+Pop&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sarina&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@400;700&family=Cinzel:wght@400..900&family=Dancing+Script:wght@400..700&family=Hachi+Maru+Pop&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sarina&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #71e8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+  padding: 20px;
+}
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.main-header {
+  font-family: "Hachi Maru Pop", cursive;
+  font-weight: 1000;
+  font-style: normal;
+  font-size: 50px;
+  color: #ff0634;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.random-quote {
+  background: #ff0634;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+}
+.generateBTN {
+  cursor: pointer;
+  background-color: #000201;
+  color: white;
+  border: none;
+  padding: 20px 80px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.generateBTN:hover {
+  cursor: pointer;
+  background-color: #4a4369;
+}
+.quote-display {
+  font-size: 3rem;
+  color: #fffcfc;
+  margin-top: 15px;
+  font-style: italic;
+  line-height: 1.6;
+  font-family: "Amatic SC", serif;
+  font-weight: 1000;
+  font-style: normal;
+}
